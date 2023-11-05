@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="check the pass and fail">
+    <listeners>
+        <listener class-name="TestNgtutorial.Listners"></listener>
+    </listeners>
+    <test  name="listner Trail">
+        <classes>
+            <class name="TestNgtutorial.TestNgAnnotation"/>
+        </classes>
+    </test>
+</suite>

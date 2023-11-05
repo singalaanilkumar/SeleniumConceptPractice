@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/seleniumUdamy">
+        <classes>
+            <class name="JavaStreams.Merge">
+                <methods>
+                    <include name="sortingWithStreamDifferentLogic"/>
+                </methods>
+            </class>
+            <class name="JavaStreams.PrintUniqueNumber">
+                <methods>
+                    <include name="print"/>
+                </methods>
+            </class>
+            <class name="JavaStreams.Printnames">
+                <methods>
+                    <include name="printname"/>
+                </methods>
+            </class>
+            <class name="JavaStreams.Sorting">
+                <methods>
+                    <include name="sortingWithStream"/>
+                </methods>
+            </class>
+            <class name="JavaStreams.StreamCollect">
+                <methods>
+                    <include name="streamCollect"/>
+                </methods>
+            </class>
+            <class name="JavaStreams.Streams">
+                <methods>
+                    <include name="test1"/>
+                    <include name="streamsLamda"/>
+                    <include name="streamsLamda2"/>
+                </methods>
+            </class>
+            <class name="PagefactorymodelTestcases.FactoryTestcase">
+                <methods>
+                    <include name="main1"/>
+                </methods>
+            </class>
+            <class name="PageobjectmodelTestcases.ModelTestcases">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+            <class name="TestNgtutorial.BankSector">
+                <methods>
+                    <include name="bankloan"/>
+                </methods>
+            </class>
+            <class name="TestNgtutorial.DataProvider">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+            <class name="TestNgtutorial.HospitalSector">
+                <methods>
+                    <include name="hospitalloan"/>
+                </methods>
+            </class>
+            <class name="TestNgtutorial.RetailSector">
+                <methods>
+                    <include name="myretailloan1"/>
+                    <include name="myretailloan2"/>
+                    <include name="myretailloan3"/>
+                    <include name="retailloan4"/>
+                    <include name="retailloan6"/>
+                    <include name="retailloan7"/>
+                </methods>
+            </class>
+            <class name="TestNgtutorial.TestNgAnnotation">
+                <methods>
+                    <include name="test"/>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="depend"/>
+                    <include name="depend2"/>
+                    <include name="failureTestcase"/>
+                    <include name="timeout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="requirement">
+    <test  name="regression">
+        <groups>
+            <run>
+                <include name = "smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNgtutorial.TestNgAnnotation"/>
+            <class name="TestNgtutorial.BankSector"/>
+            <class name="TestNgtutorial.HospitalSector"/>
+            <class name="TestNgtutorial.RetailSector"/>
+
+        </classes>
+    </test>
+</suite>
